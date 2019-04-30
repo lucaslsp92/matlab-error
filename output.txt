@@ -1,0 +1,55 @@
+folder: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\graficos
+name: cf2D_Re01300_Lxh64_2hl0010_t30_CcAlp1e-08_woturb
+
+bkstitle	bksxlegend	bksylegend	bksfont
+	0			1			1		   2
+
+title: -
+xlegend: $t\ (s)$
+ylegend: $e\ (\%)$
+
+posx	posy	lenght	height	fontaxis	fontscale	fontlegend	legcol	xmin	xmax	ymin	ymax	xtick	ytick	gridalpha
+  1		  1 	  20	  10	   25		   20			20		  2		 0		30.0	0.0		50.0	2.0		 10.0	   0.5
+
+Figvisible	Outsidebox	Colorscale		 font	 	legbox	     legloc		legori		xgrid	ygrid	gridline
+	on			on		  parula	Times New Roman	  on	 	  Best		vertical	 on	  	on	  	 --
+
+numberdata: 6	
+																  LineColor								MarkerEdgeColor							MarkerFaceColor
+space	    name		linestyle 	linewidth	special	 	R		   G	 	B	    Markersize		R		  	G		 	B			R		  G		 	B		
+  0		$\gamma=0.1$	 	-		  	1.5		   1	 0.9020		0.6235		0			8		   0.9020		0.6235		0		 0.9020		0.6235		0	
+  0		$\gamma=0.05$		-		   	1.5		   1	 0.3373		0.7059	  0.9137		8		   0.3373		0.7059	  0.9137	 0.3373		0.7059	  0.9137
+  0		$\gamma=0.02$	 	-		   	1.5		   1	 0			0.6196	  0.4509		8		   0			0.6196	  0.4509	 0			0.6196	  0.4509
+  0		$\gamma=0.01$		-		   	1.5		   1	 0.9412		0.8941	  0.2588		8		   0.9412		0.8941	  0.2588	 0.9412		0.8941	  0.2588
+  0		$\gamma=0.005$		-		   	1.5		   1	 0			0.4471	  0.6980		8		   0			0.4471	  0.6980	 0			0.4471	  0.6980
+  0		$\gamma=0.001$		-		   	1.5		   1	 0.8353		0.3686		0			8		   0.8353		0.3686		0	 	 0.8353		0.3686		0
+  
+color scale:	parula	jet	hsv	gray
+legend location:	North	South	East	West	NorthEast	NorthWest 	SouthEast	SouthWest	NorthOutside	SouthOutside	EastOutside
+					WestOutside	NorthEastOutside	NorthWestOutside	SouthEastOutside	SouthWestOutside	Best	BestOutside
+			
+			8 paletas		
+0			   0		0
+0.9020		0.6235		0
+0.3373		0.7059	  0.9137
+0			0.6196	  0.4509
+0.9412		0.8941	  0.2588
+0			0.4471	  0.6980
+0.8353		0.3686		0
+0.8			0.4745    0.6549
+
+Paired light		
+0.650980392	0.807843137	0.890196078
+0.698039216	0.874509804	0.541176471
+0.984313725	0.603921569	0.6
+0.992156863	0.749019608	0.435294118
+0.792156863	0.698039216	0.839215686
+
+Paired dark		
+0.121568627	0.470588235	0.705882353
+0.2	0.62745098	0.17254902
+0.890196078	0.101960784	0.109803922
+1	0.498039216	0
+0.415686275	0.239215686	0.603921569
+
+version: 5fc3df1

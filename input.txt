@@ -1,0 +1,111 @@
+nfolders: 7
+folder1: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\reference
+folder2: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_PscKos1e-1_CcAlp1e-08_woturb
+folder3: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_PscKos5e-2_CcAlp1e-08_woturb
+folder4: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_PscKos2e-2_CcAlp1e-08_woturb
+folder5: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_PscKos1e-2_CcAlp1e-08_woturb
+folder6: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_PscKos5e-3_CcAlp1e-08_woturb
+folder7: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_PscKos1e-3_CcAlp1e-08_woturb
+
+nfiles: 7
+
+nfiles1: 1
+filename1: umean.txt
+
+nfiles2: 1
+filename2: cf2D_Re01300_Lxh64_2hl0010_t30_PscKos1e-1_CcAlp1e-08_woturb.csv
+
+nfiles3: 1
+filename3: cf2D_Re01300_Lxh64_2hl0010_t30_PscKos5e-2_CcAlp1e-08_woturb.csv
+
+nfiles4: 1
+filename4: cf2D_Re01300_Lxh64_2hl0010_t30_PscKos2e-2_CcAlp1e-08_woturb.csv
+
+nfiles5: 1
+filename5: cf2D_Re01300_Lxh64_2hl0010_t30_PscKos1e-2_CcAlp1e-08_woturb.csv
+
+nfiles6: 1
+filename6: cf2D_Re01300_Lxh64_2hl0010_t30_PscKos5e-3_CcAlp1e-08_woturb.csv
+
+nfiles7: 1
+filename7: cf2D_Re01300_Lxh64_2hl0010_t30_PscKos1e-3_CcAlp1e-08_woturb.csv
+
+
+nplots: 7
+
+nplots1: 1
+ncolumns1: 1
+pfiles1: 1
+
+nplots2: 1
+ncolumns2: 1
+pfiles2: 2	
+
+nplots3: 1
+ncolumns3: 1
+pfiles3: 3	
+
+nplots4: 1
+ncolumns4: 1
+pfiles4: 4	
+
+nplots5: 1
+ncolumns5: 1
+pfiles5: 5	
+
+nplots6: 1
+ncolumns6: 1
+pfiles6: 6	
+
+nplots7: 1
+ncolumns7: 1
+pfiles7: 7	
+
+delimiter1: space
+header1: 1
+xcolumn1: 2
+ycolumn1: 1
+scale1: 1
+nframes1: 1
+
+delimiter2: comma
+header2: 1
+xcolumn2: 2
+ycolumn2: 28
+scale2: 1
+nframes2: 300
+
+delimiter3: comma
+header3: 1
+xcolumn3: 2
+ycolumn3: 28
+scale3: 1
+nframes3: 300
+
+delimiter4: comma
+header4: 1
+xcolumn4: 2
+ycolumn4: 28
+scale4: 1
+nframes4: 300
+
+delimiter5: comma
+header5: 1
+xcolumn5: 2
+ycolumn5: 28
+scale5: 1
+nframes5: 300
+
+delimiter6: comma
+header6: 1
+xcolumn6: 2
+ycolumn6: 28
+scale6: 1
+nframes6: 300
+
+delimiter7: comma
+header7: 1
+xcolumn7: 2
+ycolumn7: 28
+scale7: 1
+nframes7: 300
