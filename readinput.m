@@ -36,7 +36,7 @@ function [dtxt,dnum] = readinput(fl)
             for k=0:np(i,2)-1
                 if (k==0)
                     pf(j,1) = i;
-                    pf(j,2) = fscanf(fileID,'%f',1);
+                    pf(j,2) = i*fscanf(fileID,'%f',1);
                 else
                     pf(j+k,1) = pf(j,1);
                     pf(j+k,2) = pf(j,2);
@@ -49,7 +49,7 @@ function [dtxt,dnum] = readinput(fl)
     col = zeros(nfd,2);
     del = cell(nfd,1);
     scl = zeros(nfd,1);
-    nfr = zeros(nfd,1);
+    nfr = zeros(nfd,2);
     aux = 0;
     for i=1:nfd
         fscanf(fileID,'%s',1);

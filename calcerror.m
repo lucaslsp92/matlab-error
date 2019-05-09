@@ -40,7 +40,8 @@ function [A] = calcerror(dtxt,dnum)
                 A{i-1,1}(j+1,1) = j*0.1;            % cada csv corresponde a um print step
                 A{i-1,1}(j+1,2) = 100*e;
                 C = strsplit(dtxt{i,1},'\');
-                D = strsplit(C{1,12},'.');
+                [~,w] = size(C);
+                D = strsplit(C{1,w},'.');
                 E = strcat(string(D{1,1}),'.',num2str(j),'.',string(D{1,2}));
                 fprintf('%s\r',string(E));
             end

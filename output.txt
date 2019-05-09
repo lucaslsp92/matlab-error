@@ -1,28 +1,27 @@
-folder: C:\Users\lucas_pereira\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\graficos
-name: cf2D_Re01300_Lxh64_2hl0010_t30_CcAlp1e-08_woturb
+folder: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\graficos
+name: temperror_cf2D_Re01300_Lxh64_t30_Cfflow_wtturb
 
 bkstitle	bksxlegend	bksylegend	bksfont
-	0			1			1		   2
+	0			0			0		   2
 
 title: -
-xlegend: $t\ (s)$
-ylegend: $e\ (\%)$
+xlegend: $u/u_w$
+ylegend: $y/h$
 
 posx	posy	lenght	height	fontaxis	fontscale	fontlegend	legcol	xmin	xmax	ymin	ymax	xtick	ytick	gridalpha
-  1		  1 	  20	  10	   25		   20			20		  2		 0		30.0	0.0		50.0	2.0		 10.0	   0.5
+  1		  1 	  15	  15	   25		   20			20		  1		 0		2.0		-1.0	1.0		0.20	 0.2	   0.5
 
 Figvisible	Outsidebox	Colorscale		 font	 	legbox	     legloc		legori		xgrid	ygrid	gridline
 	on			on		  parula	Times New Roman	  on	 	  Best		vertical	 on	  	on	  	 --
 
-numberdata: 6	
+numberdata: 4	
 																  LineColor								MarkerEdgeColor							MarkerFaceColor
 space	    name		linestyle 	linewidth	special	 	R		   G	 	B	    Markersize		R		  	G		 	B			R		  G		 	B		
-  0		$\gamma=0.1$	 	-		  	1.5		   1	 0.9020		0.6235		0			8		   0.9020		0.6235		0		 0.9020		0.6235		0	
-  0		$\gamma=0.05$		-		   	1.5		   1	 0.3373		0.7059	  0.9137		8		   0.3373		0.7059	  0.9137	 0.3373		0.7059	  0.9137
-  0		$\gamma=0.02$	 	-		   	1.5		   1	 0			0.6196	  0.4509		8		   0			0.6196	  0.4509	 0			0.6196	  0.4509
-  0		$\gamma=0.01$		-		   	1.5		   1	 0.9412		0.8941	  0.2588		8		   0.9412		0.8941	  0.2588	 0.9412		0.8941	  0.2588
-  0		$\gamma=0.005$		-		   	1.5		   1	 0			0.4471	  0.6980		8		   0			0.4471	  0.6980	 0			0.4471	  0.6980
-  0		$\gamma=0.001$		-		   	1.5		   1	 0.8353		0.3686		0			8		   0.8353		0.3686		0	 	 0.8353		0.3686		0
+  0		$ref.$				-		   	1.5		   1	 0			   0		0			8		   0			   0		0		 0			   0		0
+  0		$2*l0/h=10$			s		   	1.5		   1	 0.3373		0.7059	  0.9137		8		   0.3373		0.7059	  0.9137	 0.3373		0.7059	  0.9137
+  0		$2*l0/h=20$			s		   	1.5		   1	 0			0.6196	  0.4509		8		   0			0.6196	  0.4509	 0			0.6196	  0.4509
+  0		$2*l0/h=40$			s		   	1.5		   1	 0.9412		0.8941	  0.2588		8		   0.9412		0.8941	  0.2588	 0.9412		0.8941	  0.2588
+  0		cs=0.02				-		   	1.5		   1	 0			0.4471	  0.6980		8		   0			0.4471	  0.6980	 0			0.4471	  0.6980
   
 color scale:	parula	jet	hsv	gray
 legend location:	North	South	East	West	NorthEast	NorthWest 	SouthEast	SouthWest	NorthOutside	SouthOutside	EastOutside
