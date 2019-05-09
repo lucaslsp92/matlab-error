@@ -8,17 +8,17 @@ function [] = graphplot(A,txt,num,leg)
             c(i,2) = leg{i,5}(1,1);
             c(i,3) = leg{i,6}(1,1);
         end
-        if (i==1)
+%         if (i==1)
             alt(i,1) = plot(A{i,1}(:,1),A{i,1}(:,2),string(leg{i,2}),'Color',c(i,:),'MarkerSize',leg{i,7}(1,1),...
                 'MarkerEdgeColor',[leg{i,8}(1,1) leg{i,9}(1,1) leg{i,10}(1,1)],...
                 'MarkerFaceColor',[leg{i,11}(1,1) leg{i,12}(1,1) leg{i,13}(1,1)]);  
             set(alt(i,1),'LineWidth',leg{i,3}(1,1));
-        else
-            alt(i,1) = errorbar(A{i,1}(:,2),A{i,1}(:,1),A{i,1}(:,3),string(leg{i,2}),'horizontal','Color',c(i,:),'MarkerSize',leg{i,7}(1,1),...
-                'MarkerEdgeColor',[leg{i,8}(1,1) leg{i,9}(1,1) leg{i,10}(1,1)],...
-                'MarkerFaceColor',[leg{i,11}(1,1) leg{i,12}(1,1) leg{i,13}(1,1)]);  
-            set(alt(i,1),'LineWidth',leg{i,3}(1,1));
-        end
+%         else
+%             alt(i,1) = errorbar(A{i,1}(:,2),A{i,1}(:,1),A{i,1}(:,3),string(leg{i,2}),'horizontal','Color',c(i,:),'MarkerSize',leg{i,7}(1,1),...
+%                 'MarkerEdgeColor',[leg{i,8}(1,1) leg{i,9}(1,1) leg{i,10}(1,1)],...
+%                 'MarkerFaceColor',[leg{i,11}(1,1) leg{i,12}(1,1) leg{i,13}(1,1)]);  
+%             set(alt(i,1),'LineWidth',leg{i,3}(1,1));
+%         end
         hold on
     end
     xlim([num(9,1) num(10,1)]);
