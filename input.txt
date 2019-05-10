@@ -1,36 +1,24 @@
-nfolders: 7
+nfolders: 4
 folder1: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\reference
-folder1: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_Cfflow_CcAlp1e-08_woturb
-folder2: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_Cfflow_CcAlp1e-08_wtturb
-folder1: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0020_t30_Cfflow_CcAlp1e-08_woturb
+folder1: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0010_t30_Cfflow_CcAlp1e-08_wtturb
 folder2: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0020_t30_Cfflow_CcAlp1e-08_wtturb
-folder1: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0040_t30_Cfflow_CcAlp1e-08_woturb
-folder2: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0040_t30_Cfflow_CcAlp1e-08_wtturb
+folder3: C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\computational\cf2D_Re01300_Lxh64_2hl0040_t30_Cfflow_CcAlp1e-08_wtturb
 
-nfiles: 7
+nfiles: 4
 
 nfiles1: 1
 filename1: umean.txt
 
 nfiles2: 1
-filename2: cf2D_Re01300_Lxh64_2hl0010_t30_Cfflow_CcAlp1e-08_woturb.csv
-
-nfiles3: 1
-filename3: cf2D_Re01300_Lxh64_2hl0010_t30_Cfflow_CcAlp1e-08_wtturb.csv
-
-nfiles2: 1
-filename2: cf2D_Re01300_Lxh64_2hl0020_t30_Cfflow_CcAlp1e-08_woturb.csv
+filename2: cf2D_Re01300_Lxh64_2hl0010_t30_Cfflow_CcAlp1e-08_wtturb.csv
 
 nfiles3: 1
 filename3: cf2D_Re01300_Lxh64_2hl0020_t30_Cfflow_CcAlp1e-08_wtturb.csv
 
-nfiles2: 1
-filename2: cf2D_Re01300_Lxh64_2hl0040_t30_Cfflow_CcAlp1e-08_woturb.csv
+nfiles4: 1
+filename4: cf2D_Re01300_Lxh64_2hl0040_t30_Cfflow_CcAlp1e-08_wtturb.csv
 
-nfiles3: 1
-filename3: cf2D_Re01300_Lxh64_2hl0040_t30_Cfflow_CcAlp1e-08_wtturb.csv
-
-nplots: 7
+nplots: 4
 
 nplots1: 1
 ncolumns1: 1
@@ -44,21 +32,9 @@ nplots2: 1
 ncolumns2: 1
 pfiles2: 1
 
-nplots1: 1
-ncolumns1: 1
-pfiles1: 1
-
-nplots2: 1
-ncolumns2: 1
-pfiles2: 1
-
-nplots1: 1
-ncolumns1: 1
-pfiles1: 1
-
-nplots2: 1
-ncolumns2: 1
-pfiles2: 1
+nplots3: 1
+ncolumns3: 1
+pfiles3: 1	
 
 delimiter1: space
 header1: 1
@@ -81,30 +57,9 @@ ycolumn2: 28
 scale2: 1
 nframes2: 300
 
-delimiter1: comma
-header1: 1
-xcolumn1: 2
-ycolumn1: 28
-scale1: 1
-nframes1: 300
-
-delimiter2: comma
-header2: 1
-xcolumn2: 2
-ycolumn2: 28
-scale2: 1
-nframes2: 300
-
-delimiter1: comma
-header1: 1
-xcolumn1: 2
-ycolumn1: 28
-scale1: 1
-nframes1: 300
-
-delimiter2: comma
-header2: 1
-xcolumn2: 2
-ycolumn2: 28
-scale2: 1
-nframes2: 300
+delimiter3: comma
+header3: 1
+xcolumn3: 2
+ycolumn3: 28
+scale3: 1
+nframes3: 300

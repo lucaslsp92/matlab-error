@@ -1,6 +1,6 @@
 clearvars;
-folder = 'C:\Users\lucas\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\matlab';
-filename = 'temperror_cf2D_Re01300_Lxh64_t30_Cfflow_wtturb';
+folder = 'I:\OneDrive\Mestrado\Pesquisas\Turbulence_model\Couette_Flow\calib\matlab';
+filename = 'cf2D_Re01300_Lxh64_2hl0010_t30_Cfflow';
 
 %% input data
 input = strcat('input_',filename,'.txt');
